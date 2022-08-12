@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Car Rental App</string>
+    <string name="title_activity_Car_detail">FoodDetailAct</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

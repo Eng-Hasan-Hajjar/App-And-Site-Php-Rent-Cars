@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sql.carRental.RegAct"
+    android:background="@drawable/b1"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:textColorHint="#0f392f"
+            android:background="#72c7bc"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:id="@+id/edname" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColorHint="#0f392f"
+            android:layout_marginTop="10dp"
+            android:background="#72c7bc"
+            android:textSize="20sp"
+            android:ems="10"
+            android:id="@+id/edPass" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColorHint="#0f392f"
+            android:layout_marginTop="10dp"
+            android:background="#72c7bc"
+            android:textSize="20sp"
+            android:ems="10"
+            android:hint="Verify Password"
+            android:id="@+id/edpass2" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:background="#72c7bc"
+            android:textSize="20sp"
+            android:ems="10"
+            android:hint="Email"
+            android:textColorHint="#0f392f"
+            android:id="@+id/edemail" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_marginTop="10dp"
+            android:background="#72c7bc"
+            android:textSize="20sp"
+            android:ems="10"
+            android:textColorHint="#0f392f"
+            android:hint="Phone"
+            android:id="@+id/edphone" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:background="#72c7bc"
+            android:textSize="20sp"
+            android:hint="Address"
+            android:textColorHint="#0f392f"
+            android:ems="10"
+            android:id="@+id/edAdd" />
+
+        <Button
+            android:text="Save Customer"
+            android:layout_marginTop="20dp"
+android:layout_margin="30dp"
+            android:background="#256c5e"
+            android:textSize="25sp"
+             android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:onClick="onclick" />
+    </LinearLayout>
+</RelativeLayout>

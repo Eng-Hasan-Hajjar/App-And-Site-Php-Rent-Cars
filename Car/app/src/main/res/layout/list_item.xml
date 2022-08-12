@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:weightSum="9"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/pro_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:text="aaa"
+            android:layout_weight="3"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/pro_uprice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:layout_weight="3"
+
+            android:text="aaa"
+            android:layout_toRightOf="@+id/pro_name"
+            />
+        <Button
+            android:id="@+id/bt_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_weight="3"
+
+            android:textColor="#ff0000"
+            android:layout_alignParentRight="true"
+            android:onClick="deleteRow"
+            />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

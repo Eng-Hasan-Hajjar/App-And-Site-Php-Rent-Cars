@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_food_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sql.carRental.CarDetailAct"
+    android:background="@drawable/b1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:id="@+id/imageView"
+
+            android:layout_weight="0.18" />
+
+        <TextView
+            android:text="CarID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:textColor="#16534b"
+
+
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_weight="0.07" />
+
+        <TextView
+            android:text="CarName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv3"
+            android:textColor="#16534b"
+
+
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_weight="0.11" />
+
+        <TextView
+            android:text="CarModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2"
+            android:textColor="#16534b"
+
+
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_weight="0.09" />
+
+        <TextView
+            android:text="CarNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#16534b"
+
+
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/tv4"
+            android:layout_weight="0.09" />
+        <TextView
+            android:text="carprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#16534b"
+
+
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/tv5"
+            android:layout_weight="0.09" />
+        <TextView
+            android:text="isreserve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#16534b"
+
+
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/tv6"
+            android:layout_weight="0.09" />
+        <TextView
+            android:text="CarType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#16534b"
+
+
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/tv7"
+            android:layout_weight="0.09" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:layout_weight="0.18"
+            android:text="1" />
+
+        <Button
+            android:text="Order Me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#16534b"
+
+
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/button4"
+            android:onClick="onclick" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
